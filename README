@@ -1,0 +1,14 @@
+DisplayTweet
+============
+
+This is a very simple plugin for the IRC bot "supybot".
+It scans every written line in the channel if it contains the link to a Tweet and if such a link is found, then it calls the Twitter API to get the nickname, tweet text and date which then will be written to the channel.
+
+Feel free to extend the plugin to support your custom status.net instances.
+
+DISLAIMER:
+Please note that this code comes without any warrenty, so use it at your own risk. 
+
+REQUIREMENTS:
+I'm sorry, but I did not investigate the detailled software requirements for this plugin. All I can say is that it should run under the current supybot version and it requires python-simplejson.
+ 
